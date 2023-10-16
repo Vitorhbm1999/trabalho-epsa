@@ -16,33 +16,92 @@
     margin: 0;
 }
 
+header{
+    text-align: center;
+    padding-top: 30px;
+    height: 150px;
+    background-color: var(--cor1);
+}
+
+header > h1{
+    font-size: 3em;
+    color: #fff;
+}
+
+header > p{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 2em;
+}
+
+
+nav{
+    width: 800px;
+    margin: auto;
+    background-color: var(--cor2);
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav > ul > li > a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
 body{
     font-family: var(--fonte-padrao);
     font-weight: normal;
 }
 
-nav{
-    background-color: rgba(0, 0, 0, 0.493);
-}
-
 main{
-    max-width: 1024px;
+    max-width: 800px;
+    margin: 0 auto;
 
 }
 
-section{
+h2{
+    color: #01602A;
+    padding: 20px 10px;
+    font-size: 2em;
+}
+
+.carros{
     display: flex;
-    max-width: 1024px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-section > div{
+.carros > div{
+    flex: 1 1 200px;
     background-color: #fff;
-    border:  1px solid #8d8d8d;
+    border:  1px solid #8d8d8d77;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+    height: 500px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.205);
 }
 
-section > div >img{
+.carros > div > h3{
+    color: var(--cor1);
+}
+
+.carros > div >img{
     width: 100%;
+}
+.carros > div > button{
+    background-color: var(--cor0);
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
 }
