@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 
+
 :root{
-    --cor0: #9AEF65;
-    --cor1: #01602A;
-    --cor2: #004521;
-    --cor4: #383838;
+    --cor0: #F2F7F9;
+    --cor1: #016EA7;
+    --cor2: #273469;
+    --cor4: #1E2749;
+    --cor5: #30343F;
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
 
@@ -17,16 +19,30 @@
 }
 
 header{
-    text-align: center;
-    padding-top: 30px;
-    height: 150px;
     background-color: var(--cor1);
+
 }
 
-header > h1{
-    font-size: 3em;
-    color: #fff;
+.aluguel{
+    background-image: url('imagens/background.jpg');
+    background-size: cover;
+    height: 300px;
 }
+
+.cabecalho{
+    background-color: var(--cor1);
+    margin: auto;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    max-width: 800px;
+}
+
+header > div > img{
+    width: 150px;
+    border-radius: 5px;
+}
+
 
 header > p{
     margin-top: 30px;
@@ -38,7 +54,6 @@ header > p{
 nav{
     width: 800px;
     margin: auto;
-    background-color: var(--cor2);
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -52,14 +67,20 @@ nav > ul > li > a{
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    border-radius: 5px;
     padding: 10px;
+
+}
+
+nav > ul > li > a:hover{
+    border-radius: 5px;
+    background-color: var(--cor2);
 }
 
 
 body{
     font-family: var(--fonte-padrao);
-    font-weight: normal;
+    background-color: var(--cor0);
+
 }
 
 main{
@@ -69,7 +90,7 @@ main{
 }
 
 h2{
-    color: #01602A;
+    color: var(--cor4);
     padding: 20px 10px;
     font-size: 2em;
 }
@@ -88,20 +109,30 @@ h2{
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    height: 500px;
+    height: 450px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.205);
+    text-align: center;
 }
 
 .carros > div > h3{
-    color: var(--cor1);
+    color: var(--cor4);
+    margin-top: 20px;
 }
 
 .carros > div >img{
-    width: 100%;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.carros > div >p{
+    margin-bottom: 20px;
 }
 .carros > div > button{
-    background-color: var(--cor0);
+    color: #fff;
+    background-color: var(--cor2);
     padding: 15px;
     border-radius: 5px;
     border: 0;
+    margin margin-top: 30px;
 }
+
