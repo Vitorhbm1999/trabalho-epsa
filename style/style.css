@@ -22,6 +22,11 @@
     margin: 0;
 }
 
+body{
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor0);    
+}
+
 header{
     background-image: linear-gradient( to bottom,#273469,#016EA7, #273469);;
 
@@ -74,7 +79,7 @@ nav > ul > li > a:hover{
     text-align: center;
     color: white;
     font-size: 1.5em;
-    padding-top: 50px;   
+    padding-top: 30px;  
 }
 
 .titulo > hr{
@@ -159,9 +164,58 @@ li{
     padding-top: 10px;
 }
 
-
-body{
-    font-family: var(--fonte-padrao);
-    background-color: var(--cor0);
-
+.conteudo04{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 30px;
+    background-color: #7FB6D3;
 }
+
+.conteudo04 > div{
+    display: flex;
+    background-color: #7FB6D3;
+    color: #fff;
+}
+
+.conteudo04 > div > img{
+    height: 100px;
+}
+
+.conteudo05{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--cor1);
+    padding: 30px;
+    color: #fff;
+}
+
+.conteudo05 > p{
+    font-weight: bolder;
+}
+
+.conteudo05 > input{
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.151);
+}
+
+.conteudo05 > button{
+    background-color: var(--cor6);
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.conteudo05 > button:hover{
+    background-color: #23cefd;
+}
+
+.conteudo05 > button > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+

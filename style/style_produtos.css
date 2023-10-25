@@ -22,6 +22,11 @@
     margin: 0;
 }
 
+body{
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor0);    
+}
+
 header{
     background-image: linear-gradient( to bottom,#273469,#016EA7, #273469);;
 
@@ -68,13 +73,29 @@ nav > ul > li > a:hover{
     background-color: var(--cor2);
 }
 
+.titulo{
+    background-color: #1E2749;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 30px;   
+}
+
+.titulo > hr{
+    margin: auto;
+    width: 150px;
+    border: solid white;
+    border-radius: 5px;
+}
+
 body{
     font-family: var(--fonte-padrao);
 
 }
 
 main{
-    max-width: 800px;
+
     margin: 0 auto;
 
 }
@@ -83,6 +104,8 @@ h2{
     color: var(--cor4);
     padding: 20px 10px;
     font-size: 2em;
+    max-width: 800px;
+    margin: auto;
 }
 
 .carros{
