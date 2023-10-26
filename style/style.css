@@ -79,7 +79,8 @@ nav > ul > li > a:hover{
     text-align: center;
     color: white;
     font-size: 1.5em;
-    padding-top: 30px;  
+    padding-top: 30px; 
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.219);
 }
 
 .titulo > hr{
@@ -219,3 +220,30 @@ li{
     padding: 15px;
 }
 
+footer{
+    background-color: #1E2749;
+    color: #fff;
+}
+
+footer > div{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+footer > hr{
+    max-width: 860px;
+    margin: auto;
+}
+
+footer > p{
+    max-width: 800px;
+    margin: auto;
+    color: #ffffffb7;
+    text-align: center;
+}
+
+th{
+    font-size: 1.5em;
+    padding-right: 20px;
+}
